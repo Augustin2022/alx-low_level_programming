@@ -6,7 +6,7 @@
  * main -> assign a random number to the variable n each time it is executed
  * and prints out based a condition
  *
- * main -> return 0
+ * return : always 0
  */
 int main(void)
 {
