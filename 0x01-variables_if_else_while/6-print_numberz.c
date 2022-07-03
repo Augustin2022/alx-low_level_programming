@@ -4,7 +4,7 @@
 /**
  * main - print numbers
  *
- * Description: Print numbers of base 10 starting by 0 
+ * Description: Print numbers of base 10 starting by 0
  * followd by a new line
  * Return: return always 0
  */
