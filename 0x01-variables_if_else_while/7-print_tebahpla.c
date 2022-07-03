@@ -12,7 +12,7 @@ int main(void)
 {
 	int x;
 
-	for (x = 122; x <= 97; x--)
+	for (x = 122; x >= 97; x--)
 	{
 		putchar(x);
 	}
