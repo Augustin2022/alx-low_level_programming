@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower -  a function that checks for lowercase character.
+ * _isalpha -  a function that checks for lowercase character.
  * @c: The number to be checked
  *
  * Description: a function that checks for lowercase character.
@@ -11,7 +11,7 @@
 int _isalpha(int c)
 {
 
-	if ((c >= 97 && c <= 122) || (c >= 41 && c <= 90))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 		
 		return (1);
 	else
