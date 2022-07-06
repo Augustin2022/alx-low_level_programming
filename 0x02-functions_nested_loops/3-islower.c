@@ -3,6 +3,7 @@
 /**
  * _islower -  a function that checks for lowercase character.
  * @c: The number to be checked
+ *
  * Description:  a function that checks for lowercase character. 
  * followed by a new line.
  * Return: Returns 1 if c is lowercase, Returns 0 otherwise
