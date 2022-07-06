@@ -6,7 +6,7 @@
  * Description:  a function that prints the alphabet, in lowercase,
  * followed by a new line.
 */
-void printlphabet_x10(void)
+void print_alphabet_x10(void)
 {
 int j;
 int i;
