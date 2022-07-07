@@ -32,9 +32,14 @@ else
 			largest = b;
 			}
 			else
-			{
-			largest = c;
-			}
+				if (c > a && a > b)
+				{
+				largest = c;
+				}
+				else
+				{
+				largest = c;
+				}
 
 
 return (largest);
