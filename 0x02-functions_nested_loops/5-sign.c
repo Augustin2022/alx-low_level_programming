@@ -5,7 +5,7 @@
  * @n: The number to be checked
  *
  * Description: Prototype int print_sign(int n);
- * Return : Returns 1 and prints + if n is greater than zero returns 0
+ * Return: Returns 1 and prints + if n is greater than zero returns 0
  * and prints 0 if n is zero Returns -1 and prints - if n is less than zero
  */
 int print_sign(int n)
@@ -22,7 +22,7 @@ int print_sign(int n)
 		_putchar('0');
 		return (0);
 		}
-		else 
+		else
 		{
 		_putchar('-');
 		return (-1);
