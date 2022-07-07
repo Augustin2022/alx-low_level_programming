@@ -7,7 +7,7 @@
  * Description: Write a function that prints the last digit of a number.
  * Return:Returns the value of the last digit
  */
-int print_last_digit(int)
+int print_last_digit(int x)
 {
 
 	return (n % 10)
