@@ -17,7 +17,10 @@ else
 	for (i = 1 ; i <= n; i++)
 	{
 		putchar (92);
+		if (i != n)
+		{
 		putchar ('\n');
+		}
 		for (j = 1 ; j <= i; j++)
 		{
 			if (j != n)
@@ -26,6 +29,5 @@ else
 			}
 		}
 	}
-putchar ('\n');
 }
 }
