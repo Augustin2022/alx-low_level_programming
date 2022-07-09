@@ -17,6 +17,7 @@ else
 for (i = 0 ; i <= n; i++)
 {
 putchar (92);
+putchar ('$');
 putchar ('\n');
 for (j = 0 ; j <= i; j++)
 {
