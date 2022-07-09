@@ -24,7 +24,7 @@ else
 		for (j = 1 ; j <= i; j++)
 		{
 			putchar (' ');
-		}	
+		}
 	}
 putchar ('\n');
 }
