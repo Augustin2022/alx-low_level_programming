@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -29,5 +31,6 @@ else
 printf("%d ", i);
 }
 }
+print("\n");
 return (0);
 }
