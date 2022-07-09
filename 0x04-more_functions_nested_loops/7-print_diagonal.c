@@ -23,7 +23,10 @@ else
 		}
 		for (j = 1 ; j <= i; j++)
 		{
+			if (j != n)
+			{
 			putchar (' ');
+			}
 		}
 	}
 putchar ('\n');
