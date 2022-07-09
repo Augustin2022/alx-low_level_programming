@@ -14,14 +14,15 @@ putchar ('\n');
 }
 else
 {
-for (i = 0 ; i < n; i++)
-{
-putchar (92);
-putchar ('\n');
-for (j = 0 ; j < i; j++)
-{
-putchar (' ');
-}
+	for (i = 1 ; i <= n; i++)
+	{
+	putchar (92);
+	putchar ('\n');
+	for (j = 1 ; j <= i; j++)
+	{
+		if (j != n)
+		putchar (' ');
+	}
 }
 putchar ('\n');
 }
