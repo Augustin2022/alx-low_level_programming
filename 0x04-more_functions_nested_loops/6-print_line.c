@@ -14,10 +14,12 @@ if (n > 0)
 	{
 	_putchar(95);
 	{
+putchar('$');
 _putchar('\n');
 }
 else
 {
+putchar('$');
 _putchar('\n');
 }
 }
