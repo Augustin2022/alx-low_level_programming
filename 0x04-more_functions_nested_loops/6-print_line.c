@@ -13,13 +13,11 @@ if (n > 0)
 	for (i = 0; i < n; i++)
 	{
 	_putchar(95);
-	{
-putchar('$');
+	}
 _putchar('\n');
 }
 else
 {
-putchar('$');
 _putchar('\n');
 }
 }
