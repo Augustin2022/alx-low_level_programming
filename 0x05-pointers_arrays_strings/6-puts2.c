@@ -9,10 +9,10 @@
 
 void puts2(char *str)
 {
-	int l, i;
+	int lon, i;
 
-	i = strlen(str);
-	for (i = 0; i < l; i += 2)
+	lon = strlen(str);
+	for (i = 0; i < lon; i += 2)
 		_putchar(str[i]);
 	_putchar('\n');
 }
