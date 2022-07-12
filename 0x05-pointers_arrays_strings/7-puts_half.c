@@ -8,10 +8,18 @@
 
 void puts_half(char *str)
 {
-	int lon, i;
+	int lon, i, j;
 
 	lon = strlen(str);
-	for (i = lon / 2; i < lon; i++)
+	if (lon % 2 == 0)
+	{
+	j = lon / 2;
+	}
+	else
+	{
+	j = (lon - 1) / 2;
+	}	
+	for (i = j; i < lon; i++)
 		_putchar(str[i]);
 	_putchar('\n');
 }
