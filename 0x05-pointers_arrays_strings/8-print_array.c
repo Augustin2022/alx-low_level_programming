@@ -15,11 +15,11 @@ int i;
 
 	for (i = 0; i < 0; i++)
 	{
-		printf("%d", a[i];
+		printf("%d", a[i]);
 		if (i != n - 1)
 		{
 		printf(",");
-		peintf(" ");
+		printf(" ");
 		}
 	}
 	printf("\n");
