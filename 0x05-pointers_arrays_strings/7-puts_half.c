@@ -17,8 +17,8 @@ void puts_half(char *str)
 	}
 	else
 	{
-	j = (lon - 1) / 2;
-	}	
+	j = lon / 2 + 1;
+	}
 	for (i = j; i < lon; i++)
 		_putchar(str[i]);
 	_putchar('\n');
