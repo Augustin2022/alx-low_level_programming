@@ -1,6 +1,5 @@
-Readme for C programming
-
 0x06. C - More pointers, arrays and strings
+C
 
 
     What are pointers and how to use them
