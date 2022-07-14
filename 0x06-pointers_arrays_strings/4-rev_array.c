@@ -5,11 +5,12 @@
  * an array of integers.
  * @a: pointer
  * @n: integer
- * */
+ */
 
 void reverse_array(int *a, int n)
 {
 	int imp, index;
+
 	for (index = n - 1; index > n / 2; index--)
 		{
 		temp = a[n - 1 - index];
