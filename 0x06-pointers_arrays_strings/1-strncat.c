@@ -3,10 +3,10 @@
 /**
  * _strncat -> a function that concatenates two strings
  * @dest: string parameter
- * src: string parameter
+ * @src: string parameter
  * @n: integer
  *
- * Return : string
+ * Return: string
  */
 
 char *_strncat(char *dest, char *src, int n)
